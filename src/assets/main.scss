@@ -1,0 +1,110 @@
+$hovedfarve: #E9F1FA;
+$padding: 20px;
+$border-radius: 30px;
+$form-width: 50%;
+
+body {  
+  background-color: $hovedfarve;
+}
+
+.quahoggazette {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 34px;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-top: 50px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-decoration: underline;
+}
+
+.editor {
+text-align: center;
+margin-bottom: 10px;
+}
+
+.tuckerquote {
+text-align: center;
+text-decoration: wavy;
+margin-bottom: 30px;
+font-style: italic;
+}
+
+.artikel-skriv {
+  display: flex;
+  background-color: #b3a6a6;
+  padding: $padding;
+  border-radius: $border-radius;
+  width: $form-width;
+  margin: 0 auto;
+}
+
+.artikeltekst-felt {
+  width: 500px;
+  background-color: $hovedfarve;
+  border: 1px solid black;
+  border-radius: 40px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  resize: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forfatter-felt {
+  background-color: $hovedfarve;
+  border: 1px solid black;
+}
+
+.indsendknap {
+  cursor: pointer;
+  background-color: rgb(91, 209, 91);
+  color: #fff;
+  border: 1px solid white;
+  padding: 9px;
+  border-radius: 10px;
+}
+
+.artikelvisning {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin-bottom: 50px;
+}
+
+.forfatteroverskrift {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.datoerne {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+.teksterne {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-wrap: wrap;
+  max-width: 400px;
+  text-align: justify;
+}
+
+.knapslet{
+  display: flex;
+  justify-content: center;
+}
+
+.sletteknap {
+  background-color: #ff4d4d; /* Rød baggrundsfarve */
+  color: #fff; /* Hvid tekstfarve */
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}

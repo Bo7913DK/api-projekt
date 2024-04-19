@@ -1,0 +1,53 @@
+body {
+  background-color: #E9F1FA;
+}
+
+.artikel-skriv {
+  display: flex;
+  justify-content: space-around;
+  background-color: #b3a6a6;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.artikeltekst-felt {
+  width: 500px;
+  background-color: #E9F1FA;
+  border: 1px solid black;
+  border-radius: 44px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  resize: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.forfatter-felt {
+  background-color: #E9F1FA;
+  border: 1px solid black;
+}
+
+.artikelvisning {
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  margin-bottom: 50px;
+}
+
+.forfatteroverskrift {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.datoerne {
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+.teksterne {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+}/*# sourceMappingURL=main.css.map */
